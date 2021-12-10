@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 //add a decorator
 @Component({
-  selector: 'app-first-server',
-  templateUrl: './first-server.component.ts',
+  selector: 'first-server',
+  templateUrl: './first-server.component.html',
 })
-export class firstServerComponent {}
+export class FirstServerComponent {}
