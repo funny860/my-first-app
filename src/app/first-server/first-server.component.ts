@@ -4,4 +4,10 @@ import { Component } from '@angular/core';
   selector: 'first-server',
   templateUrl: './first-server.component.html',
 })
-export class FirstServerComponent {}
+export class FirstServerComponent {
+  serverId = 10;
+  serverStatus = 'Offline';
+  getServerStatus() {
+    return this.serverStatus;
+  }
+}
