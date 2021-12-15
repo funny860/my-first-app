@@ -1,1 +1,8 @@
-<p>Server with ID {{ serverId }} and {{ serverStatus }}</p>
+<p
+  [ngStyle]="{ backgroundColor: getColor() }"
+  [ngClass]="{ online: serverStatus == 'online' }"
+>
+  Server with ID {{ serverId }} and {{ serverStatus }}
+</p>
+<!-- ngStyle used for property changes. -->
+<!-- ngClass used to add a class  -->
